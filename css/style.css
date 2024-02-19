@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  position:relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+
+.section_inner {
+  padding: 50px 10% 30px;
+}
+
+.key {
+  height: 500px;
+  background-image: url("../images/sample_key.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+
+
+.key h1 {
+  font-size: 2.5em;
+}
+
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  color: #42210b;
+  border-bottom: 1px solid #42210b;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+
+.header_nav {
+  background:linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  /* background:rgba(0,0,0,.6); */
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.global_nav_item{
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.global_nav_item:hover {
+  background-color: #fff;
+  color: #42210b;
+}
+
+.logo {
+  display: flex;
+  width: 120px;
+  align-items: center;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.cofee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.sub_header {
+  margin-bottom: 100px;
+}
+
+.contact {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.contact_line {
+  height: 50px;
+  line-height: 50px;
+
+}
+
+.contact_sign {
+  width: 25%;
+  background-color: #beb9b7;
+  border: solid 1px #beb9b7;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.contact_input {
+  width: 75%;
+  border: solid 1px #beb9b7;
+}
+
+.content_content {
+  height: 100px;
+}
+
+.contact_input input, select, textarea {
+  border: none;
+  width: 99%;
+}
+
+.contact_input input, select {
+  height: 50px;
+}
+
+.contact_input textarea {
+  height: 100px;
+}
+
+.contact_btn_area {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.contact_btn{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact_btn + .contact_btn {
+  margin-left: 10px;
+}
+
+.submit_btn {
+  background-color: #9852a5;
+  color: #fff;
+}
+
+.reset_btn {
+  background-color: #e6e6e6;
+}
+
+footer {
+  background-color: #251e19;
+  width: 100%;
+  position: absolute;
+  bottom: -75px;
+  padding-bottom: 10px;
+  height: 75px;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer_nav_item {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px;
+  
+}
+
+.footer_logo {
+  width: 80px;
+}
+
+.footer_right {
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+
+/*
+ font-family: 'Noto Serif JP', serif;
+ */
+
+
+/*
+font-family: 'Yuji Boku', serif;
+*/
+
+
+/*
+backgroundプロパティは、background-position,background-size,background-repeat, background-image
+の順に指定する
+ex) background:center / cover no-repeat url("../ images /sample_key.jpg")
+*/
